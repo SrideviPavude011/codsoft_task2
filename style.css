@@ -1,0 +1,67 @@
+body, h1, h2, h3, p, ul {
+    margin: 1;
+    padding: 4;
+}
+
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+        background-color: hsl(196, 25%, 82%);
+        background-image: url('image.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center; 
+    
+    
+}
+header {
+    color: #1770b8;
+    padding: 20px;
+    width: 100%; /* Header spans full width */
+    text-align: center; /* Center text horizontally */
+}
+
+
+
+nav ul {
+    list-style-type:upper-latin;
+}
+
+nav ul li {
+    display:inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:rgb(101, 62, 10);
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+#about {
+    flex: 1;
+}
+
+.student-photo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.student-photo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding:0cap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
